@@ -102,6 +102,37 @@ text-transform: uppercase;}
 text-indent: 50px;
 text-align: justify;}
 
+.square{position: relative;
+display: inline-block;
+width: 22px;
+height: 22px;
+border: 2px solid rgb(6, 85, 105);
+border-radius: 5px;
+margin-right: 5px;
+padding: 10;}
+
+label{font-size:18px;
+position: relative;}
+
+input[type="checkbox"]{width: 0;}
+
+.square:hover{cursor: pointer;}
+
+form ul{margin: 10px 0;
+padding: 0;}
+
+form ul li{list-style: none;
+display: inline-block;
+margin: 0 10px;}
+
+input[type="checkbox"]:checked + label .square{background-color: rgba(7, 114, 141, 0.712);}
+
+input[type="checkbox"]:checked + label::before{content: "✔";
+position: absolute;
+color: rgb(0, 0, 0);
+background-color: rgba(7, 114, 141, 0);
+margin-left: 6px;}
+
 @media screen and (min-width: 0px) {
     body{background-color: whitesmoke;}
 
