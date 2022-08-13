@@ -109,10 +109,12 @@ height: 22px;
 border: 2px solid rgb(6, 85, 105);
 border-radius: 5px;
 margin-right: 5px;
-padding: 10;}
+padding: 10;
+box-sizing: border-box;}
 
 label{font-size:18px;
-position: relative;}
+position: relative;
+border-bottom: 1px solid rgb(6, 85, 105);}
 
 input[type="checkbox"]{width: 0;}
 
@@ -129,9 +131,19 @@ input[type="checkbox"]:checked + label .square{background-color: rgba(7, 114, 14
 
 input[type="checkbox"]:checked + label::before{content: "✔";
 position: absolute;
+top: -7px;
+left: -2px;
 color: rgb(0, 0, 0);
-background-color: rgba(7, 114, 141, 0);
 margin-left: 6px;}
+
+select{height: 24px;
+border-radius: 5px;
+border: 2px solid rgb(6, 85, 105);
+font-size: 17px;
+margin: 10px;}
+
+
+
 
 @media screen and (min-width: 0px) {
     body{background-color: whitesmoke;}
