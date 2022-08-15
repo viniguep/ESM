@@ -32,7 +32,8 @@ header .menu-principal li a:hover{
     transition: .25s linear;
 }
 
-header .menu-principal li a{display: block;
+header .menu-principal li a {
+    display: block;
     text-decoration: none;
     color: white;
     margin: 0;
@@ -43,7 +44,24 @@ header .menu-principal li a{display: block;
     font-size: 14px;
     border: 1px transparent solid;
     border-bottom: 1px rgb(153, 255, 221) solid;
-    transition: .2s linear}
+    transition: .2s linear
+}
+
+header .botao-menu{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 130px;
+    letter-spacing: 1.2px;
+    font-size: 14px;
+    border: 1px transparent solid;
+    border-bottom: 1px rgb(153, 255, 221) solid;
+    transition: .2s linear;
+    cursor: pointer;
+}
     
 
 header .menu-login{display: inline-block;
