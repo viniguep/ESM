@@ -7,7 +7,46 @@ position: relative;
 background-blend-mode: darken;
 height: 340px;}
 
-header .menu{display: inline-block;
+header .menu-principal{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    margin: 10px 0;
+}
+
+header .menu-principal li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header .menu-principal li a:hover{
+    color: rgb(153, 255, 221);
+    background-color: rgba(0, 0, 0, 0.034);
+    transition: .25s linear;
+}
+
+header .menu-principal li a{display: block;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 130px;
+    letter-spacing: 1.2px;
+    font-size: 14px;
+    border: 1px transparent solid;
+    border-bottom: 1px rgb(153, 255, 221) solid;
+    transition: .2s linear}
+    
+
+header .menu-login{display: inline-block;
 position: absolute;
 top: 0;
 right: 0;
@@ -16,24 +55,24 @@ text-decoration: none;
 margin: 10px;
 margin: 10px 0;}
 
-header .menu{left: 0;
-margin-left: 0;
+header .menu-login{right: 0;
+margin-right: 0;
 padding: 0;}
 
-header .menu li a:hover{
+header .menu-login li a:hover{
 color: rgb(153, 255, 221);
 background-color: rgba(0, 0, 0, 0.034);
 transition: .25s linear;}
 
 
-header .menu li{
+header .menu-login li{
 list-style: none;
 display: inline-block;
 text-align: center;
 margin-left: 10px;
 margin-right: 10px;}
 
-header .menu li a{display: block;
+header .menu-login li a{display: block;
 text-decoration: none;
 color: white;
 margin: 0;
