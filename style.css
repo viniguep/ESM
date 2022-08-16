@@ -247,13 +247,7 @@
     border: 2px solid rgb(6, 85, 105);
     width: 92%;
     }
-
-    input[type="checkbox"][id="proc"]:checked + iframe{
-    display: none;
-    }
-
     
-
 
 @media screen and (min-width: 0px) {
     
