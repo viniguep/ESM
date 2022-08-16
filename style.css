@@ -1,24 +1,15 @@
+/*HEADER*/
 header{
-background: rgba(0, 0, 0, 0.534) url(imgs/bg.jpg);
-color: white;
-background-size: cover;
-margin: 0px;
-position: relative;
-background-blend-mode: darken;
-height: 340px;}
-
-header .menu-principal{
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 0;
+    background: rgba(0, 0, 0, 0.534) url(imgs/bg.jpg);
     color: white;
-    text-decoration: none;
-    margin: 10px;
-    margin: 10px 0;
-}
+    background-size: cover;
+    margin: 0px;
+    position: relative;
+    background-blend-mode: darken;
+    height: 340px;
+    }
 
-header .menu-principal li{
+    header .menu-principal li{
     list-style: none;
     display: inline-block;
     text-align: center;
@@ -26,13 +17,14 @@ header .menu-principal li{
     margin-right: 10px;
     }
 
-header .menu-principal li a:hover{
+    header .menu-principal li a:hover{
     color: rgb(153, 255, 221);
     background-color: rgba(0, 0, 0, 0.034);
     transition: .25s linear;
-}
+    }
 
-header .menu-principal li a{display: block;
+    header .menu-principal li a{
+    display: block;
     text-decoration: none;
     color: white;
     margin: 0;
@@ -43,85 +35,110 @@ header .menu-principal li a{display: block;
     font-size: 14px;
     border: 1px transparent solid;
     border-bottom: 1px rgb(153, 255, 221) solid;
-    transition: .2s linear}
-    
+    transition: .2s linear
+    }
+        
+    header .menu-login{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    margin: 10px 0;
+    }
 
-header .menu-login{display: inline-block;
-position: absolute;
-top: 0;
-right: 0;
-color: white;
-text-decoration: none;
-margin: 10px;
-margin: 10px 0;}
+    header .menu-login{
+    right: 0;
+    margin-right: 0;
+    padding: 0;
+    }
 
-header .menu-login{right: 0;
-margin-right: 0;
-padding: 0;}
+    header .menu-login li a:hover{
+    color: rgb(153, 255, 221);
+    background-color: rgba(0, 0, 0, 0.034);
+    transition: .25s linear;
+    }
 
-header .menu-login li a:hover{
-color: rgb(153, 255, 221);
-background-color: rgba(0, 0, 0, 0.034);
-transition: .25s linear;}
+    header .menu-login li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
 
+    header .menu-login li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 130px;
+    letter-spacing: 1.2px;
+    font-size: 14px;
+    border: 1px transparent solid;
+    border-bottom: 1px rgb(153, 255, 221) solid;
+    transition: .2s linear
+    }
 
-header .menu-login li{
-list-style: none;
-display: inline-block;
-text-align: center;
-margin-left: 10px;
-margin-right: 10px;}
+    header p{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 0px;
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px white solid;
+    }
 
-header .menu-login li a{display: block;
-text-decoration: none;
-color: white;
-margin: 0;
-text-transform: uppercase;
-padding: 10px;
-width: 130px;
-letter-spacing: 1.2px;
-font-size: 14px;
-border: 1px transparent solid;
-border-bottom: 1px rgb(153, 255, 221) solid;
-transition: .2s linear}
+/*GENERAL CONFIG.*/
+    body{
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    }
 
-body{font-family: sans-serif;
-background-color: whitesmoke;}
+    h1{
+    margin:0 auto;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 58px;
+    }
 
-h1{margin:0 auto;
-text-align: center;
-padding-top: 100px;
-font-size: 58px;
-}
+    h2{
+    color:rgb(6, 85, 105);
+    text-transform: uppercase;
+    }
 
-header p{font-size: 40px;
-text-align: center;
-margin-bottom: 80px;
-margin-top: 0px;
-width: 80%;
-margin: auto;
-border-bottom: 1px white solid;}
+/*CARDS*/
+    .col p{
+    display: block;
+    padding: 0 20px;
+    line-height: 22px;
+    }
 
+    .col h2{
+    display: block;
+    padding: 0 20px;
+    }
 
+    .col a{
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: .2s linear;
+    color: rgb(7, 114, 141);
+    }
 
-.col p{display: block;
-padding: 0 20px;
-line-height: 22px;}
-.col h2{display: block;
-padding: 0 20px;}
-.col a{display: block;
-padding: 0 20px;
-text-decoration: none;
-padding-bottom: 20px;
-text-transform: uppercase;
-letter-spacing: 1.5px;
-transition: .2s linear;
-color: rgb(7, 114, 141);}
-
-.col a:hover{text-decoration: underline;
-transition: .8s linear}
-
-
+    .col a:hover{
+    text-decoration: underline;
+    transition: .8s linear
+    }
 
     .row{
     clear: left;
@@ -136,12 +153,15 @@ transition: .8s linear}
     margin:auto;
     }
 
-h2{color:rgb(6, 85, 105);
-text-transform: uppercase;}
+    .txt img{
+    width: 0;
+    }
 
-.txt p{font-size: 17px;
-text-indent: 50px;
-text-align: justify;}
+    .txt p{
+    font-size: 17px;
+    text-indent: 50px;
+    text-align: justify;
+    }
 
 /*FORMS*/
     .square{
