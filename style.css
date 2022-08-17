@@ -45,7 +45,6 @@
     left: 0;
     color: white;
     text-decoration: none;
-    margin: 10px;
     margin: 10px 0;
     }
 
@@ -101,6 +100,7 @@
     font-size: 58px;
     }
 
+
 /*GENERAL CONFIG.*/
     body{
     font-family: sans-serif;
@@ -149,7 +149,7 @@
 /*TEXT*/
     .txt{
     display: block;
-    width: 98%;
+    width: 90%;
     margin:auto;
     }
 
@@ -198,9 +198,29 @@
     margin-bottom: 10px;
     }
 
+    input[type="reset"]{border: 2px rgb(6, 85, 105) solid;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 17px; 
+    margin-left: 20px;
+    background-color: white;}    
+
+    label[for="proc"] div{border: 2px rgb(6, 85, 105) solid;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;                     
+    background-color: white;                     }
+
+label[for="proc"]:hover{cursor: pointer;}
+
     input[type="checkbox"]{
     width: 0;
     }
+
+    
 
     .square:hover{
     cursor: pointer;
@@ -240,7 +260,7 @@
 
     input[type="text"]{
     display: block;
-    margin-left: 8px;
+    margin-left: 9px;
     margin-right: 8px;
     border-radius: 5px;
     margin-bottom: 5px;
@@ -444,6 +464,11 @@ border-radius: 10px;
 }
 
 /* iFrame */
+.iframes {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
 
 .iframe-escola {
     display: block;
@@ -457,10 +482,8 @@ input[type="checkbox"]:checked + label .iframe-escola{
     display: none;
 }
 
-
-
 input[type="checkbox"]:checked + label .iframe-saude{
     display: block;
 }
 
-
+input[type="checkbox"][id="proc"]{border: 2px solid red}
