@@ -256,13 +256,10 @@
 /*footer*/
     footer{
     background-color: rgb(7, 114, 141);
-    color: aliceblue;
-    height: 210px;
-    position: relative;
-    }
-
-
-    
+    color: rgba(240, 248, 255, 0.712);
+    height: 200px;
+    text-align: center;
+    margin-top: 11px;}
 
     footer img {
     width: 45px;
@@ -270,53 +267,26 @@
     display: inline;
     float: left;
     position: absolute;
-    bottom: 70px;
-    left: 0;}
+    left: 50%;
+    margin-left: -85px;}
 
-    footer h1{position: absolute;
-    bottom: 50px;
-    left: 50px;}
-
-    footer ul[id="other"]{float: left;
-    display: inline-b;
+    footer ul[id="other"]{
+    text-align: justify;
+    display: inline-block;
     margin: auto;
-    position: relative;}
-        
-    footer ul{position: absolute;
-    bottom: 0;}
-    
-/*footer*/
-    footer{
-    background-color: rgb(7, 114, 141);
-    color: aliceblue;
-    height: 210px;
     position: relative;
+    padding: 20px 25px 0px;
+    }
+        
+    footer ul{
+    list-style-type: none;
+    padding: 10px;
+    line-height: 24px;
     }
 
-
-    
-
-    footer img {
-    width: 45px;
-    border-radius: 50%;
-    display: inline;
-    float: left;
-    position: absolute;
-    bottom: 70px;
-    left: 0;}
-
-    footer h1{position: absolute;
-    bottom: 50px;
-    left: 50px;}
-
-    footer ul[id="other"]{float: left;
-    display: inline-b;
-    margin: auto;
-    position: relative;}
-        
-    footer ul{position: absolute;
-    bottom: 0;}
-    
+    .infinity{
+    position: relative;
+    }
 
 
 @media screen and (min-width: 0px) {
