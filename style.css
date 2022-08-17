@@ -276,6 +276,7 @@
     margin: auto;
     position: relative;
     padding: 20px 25px 0px;
+    text-decoration: underline;
     }
         
     footer ul{
@@ -287,6 +288,12 @@
     .infinity{
     position: relative;
     }
+
+    footer p a{color:rgba(240, 248, 255, 0.712)}
+
+/*menu*/
+    input[type="checkbox"]:checked + header .menu{background-color: aqua;
+    width:20%;}
 
 
 @media screen and (min-width: 0px) {
