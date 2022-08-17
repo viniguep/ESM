@@ -207,6 +207,8 @@
     margin-left: 20px;
     background-color: white;}    
 
+    input[type="reset"]:hover{cursor: pointer;}
+
     label[for="proc"] div{border: 2px rgb(6, 85, 105) solid;
     width: 100px;
     text-align: center;
@@ -273,7 +275,7 @@ label[for="proc"]:hover{cursor: pointer;}
     footer{
     background-color: rgb(7, 114, 141);
     color: rgba(240, 248, 255, 0.712);
-    height: 210px;
+    height: 100px;
     text-align: center;
     margin-top: 11px;}
 
@@ -284,6 +286,7 @@ label[for="proc"]:hover{cursor: pointer;}
     float: left;
     position: absolute;
     left: 50%;
+    
     margin-left: -85px;}
 
     footer ul[id="other"]{
@@ -307,14 +310,9 @@ label[for="proc"]:hover{cursor: pointer;}
 
     footer p a{color:rgba(240, 248, 255, 0.712)}
 
-/*menu*/
-header .menu{display: none;}
+    footer{border-top: 20px solid rgb(6, 85, 105)}
 
-input[type="checkbox"]:checked + label .menu{
-display: block;
-width: 20%;
-background-color: red;
-}
+/*menu*/
 
 
 @media screen and (min-width: 0px) {
@@ -342,6 +340,7 @@ padding: 0;
 .col{
 width: 70%
 }
+input[type="text"]{width: 600px;}
 }
 
 
@@ -478,6 +477,10 @@ border-radius: 10px;
     display: none;
 }
 
+.waze {
+    display: none;
+}
+
 input[type="checkbox"]:checked + label .iframe-escola{
     display: none;
 }
@@ -486,4 +489,15 @@ input[type="checkbox"]:checked + label .iframe-saude{
     display: block;
 }
 
-input[type="checkbox"][id="proc"]{border: 2px solid red}
+input[type="checkbox"]:checked + label .waze{
+    display: block;
+}
+
+
+form a{border: 2px rgb(6, 85, 105) solid;
+ width: 150px;
+ text-align: center;
+ border-radius: 5px;
+ text-decoration: none;
+ color: black;
+ margin-top: 10px;}
