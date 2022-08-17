@@ -443,20 +443,14 @@ border-radius: 10px;
 }
 
 /* iFrame */
-.iframes {
-    position: relative;
-}
 
 .iframe-escola {
     display: block;
-    position: absolute;
-    top: 0;
 }
 
 .iframe-saude {
     display: none;
-    position: absolute;
-    top: 0;
 }
+
 
 
