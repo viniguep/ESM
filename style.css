@@ -94,6 +94,13 @@
     border-bottom: 1px white solid;
     }
 
+    .footer{
+        text-align: left;
+        padding: 10px;
+        background-color: rgb(67, 71, 86);
+        color: white;
+    }
+
 /*GENERAL CONFIG.*/
     body{
     font-family: sans-serif;
