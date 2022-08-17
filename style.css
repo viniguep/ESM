@@ -248,10 +248,6 @@
     width: 92%;
     }
 
-    input[type="checkbox"][id="proc"]:checked + iframe{
-    display: none;
-    }
-
 
 /*footer*/
     footer{
@@ -297,6 +293,7 @@ header .menu{display: none;}
 input[type="checkbox"]:checked + label .menu{
 display: block;
 width: 20%;
+background-color: red;
 }
 
 
@@ -456,11 +453,10 @@ border-radius: 10px;
     display: none;
 }
 
-#proc :checked .iframe-escola{
+input[type="checkbox"]:checked + label .iframe-escola{
     display: none;
 }
 
-#proc :checked .iframe-saude{
+input[type="checkbox"]:checked + label .iframe-saude{
     display: block;
 }
-
