@@ -292,9 +292,12 @@
     footer p a{color:rgba(240, 248, 255, 0.712)}
 
 /*menu*/
-input[type="checkbox"]:checked + label .square{
-    background-color: rgba(141, 7, 7, 0.774);
-    }
+header .menu{display: none;}
+
+input[type="checkbox"]:checked + label .menu{
+display: block;
+width: 20%;
+}
 
 
 @media screen and (min-width: 0px) {
