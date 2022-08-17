@@ -456,5 +456,11 @@ border-radius: 10px;
     display: none;
 }
 
+#proc :checked .iframe-escola{
+    display: none;
+}
 
+#proc :checked .iframe-saude{
+    display: block;
+}
 
